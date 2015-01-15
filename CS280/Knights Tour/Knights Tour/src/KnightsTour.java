@@ -2,8 +2,10 @@
  * @author Silvia Carbajal
  */
 public class KnightsTour {
+
 final static int N=8;
 static int board[][];
+
 	public static void main(String[] args){
 		board = new int[N][N];
         int x , y;
@@ -12,9 +14,9 @@ static int board[][];
         		for ( y = 0; y < N; y++)
                 	{board[x][y] = 0;}
             }
-        
+
         move(0,0,1); //start
-        
+
         //prints board
         for (x = 0; x < N; x++)
         	{
@@ -22,7 +24,7 @@ static int board[][];
         		for ( y = 0; y < N; y++)
                		{System.out.print(board[x][y]+" ");}
         	}//end of outer for loop
-      }//end of main
+    }//end of main
 	
 	/**
 	 * moves knight recursively 
@@ -43,7 +45,7 @@ static int board[][];
 		if (num==64) //reaches end  
 			{return true;}
 		
-    //all 8 moves of the knight
+   		//all 8 moves of the knight
 		if(move(x+2, y+1,num+1)){
 			return true;
 		}
