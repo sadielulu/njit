@@ -1,6 +1,5 @@
 """Silvia Carbajal
-CS100 2014Su Section 01
-HW1,May 9,2014
+ 
 """
 
 import turtle
