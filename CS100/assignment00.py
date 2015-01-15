@@ -1,6 +1,5 @@
 """  Silvia Carbajal
-CS 100 2014Su Section 01
-HW 0, May 31, 2014
+ 
                     """
 
 
